@@ -436,7 +436,6 @@ $Form1.Text = "Sharepoint Permissions Report"
 $Form1.StartPosition = "CenterScreen"
 $Form1.SizeGripStyle = "Hide"
 $Form1.BackColor = "White"
-$Form1.Re
 $terminateScript = $false
 
 $comboBox1 = New-Object System.Windows.Forms.ComboBox
