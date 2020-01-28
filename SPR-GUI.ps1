@@ -25,7 +25,7 @@ write-host $fname2
 Function Button_ClickLogin($SPAddress)
 {
 
-$ModuleCheck = Get-Module -Name SharePointPnPPowerShellOnline
+$ModuleCheck = Get-Module -Name SharePointPnPPowerShellOnline -ListAvailable
 
 if ($null -eq $ModuleCheck){
 
@@ -35,7 +35,7 @@ if ($null -eq $ModuleCheck){
 
     #Check Again
     }
-    $ModuleCheck2 = Get-Module -Name SharePointPnPPowerShellOnline
+    $ModuleCheck2 = Get-Module -Name SharePointPnPPowerShellOnline -ListAvailable
 
     if ($null -eq $ModuleCheck2){
 
